@@ -1,0 +1,172 @@
+* Navbar Styling */
+.navbar {
+  background-color: #c1556c !important; /* Dark muted pink */
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+  /*     z-index: 1000; */
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+  color: #fff2f2 !important;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: paragraphs;
+  display: flex;
+  border-radius: 25px;
+  display: inline block;
+
+}
+a.nav-link{
+  justify-content: right;
+}
+
+.navbar-brand img{
+  border-radius: 50px;
+  
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-1px);
+  border-radius: 25px;
+}
+.navbar-nav .nav-link:hover {
+  color: #ea93a4 !important; /* Light pink hover effect */
+}
+
+/* Navbar Logo Styling */
+.navbar-logo {
+  height: 70px; /* Adjust logo size */
+  width: auto;
+  margin-left: 15px; /* Ensures logo is properly positioned */
+}
+
+hero{
+  animation: fadeInUp 0.8s ease both;
+  animation-delay: 0.2s;
+}
+
+/* SafeBites Title Styling */
+h1 {
+  font-size: 2em;
+animation: fadeInUp 0.8s ease both;
+  animation-delay: 0.2s;
+  font-family: headers !important;
+  padding: 10rem;
+  text-align: center;
+  color: #c1556c !important; /* Force dark pink */
+}
+
+/* Ensure body starts below navbar */
+body {
+
+  /* Prevents content from hiding under navbar */
+  background-color: #fff2f2 !important; /* Super light pink */
+  color: #c1556c;
+}
+p {
+  font-family: paragraphs;
+}
+section {
+  padding: 4rem;
+  text-align: center;
+  font-family: paragraphs;
+  color: #c1556c;
+  font-size: 25px;
+}
+/* just adding fonts for later so it's easier to add in
+/* fonts were found on https://www.fontspace.com/category/new-york-times and https://fonts.google.com/specimen/Courier+Prime */
+@font-face {
+  font-family: paragraphs;
+  src: url("https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/SdGeorgiaLightDemoItalic-VPnx.ttf?v=1740943269719");
+}
+@font-face {
+  font-family: headers;
+  src: url("https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/VeganStylePersonalUse-5Y58.ttf?v=1740943248890");
+}
+
+/* images*/
+/*made with help of https://stackoverflow.com/questions/69600315/how-to-make-text-next-to-an-image*/
+.imageflex { display: flex; }
+.imageflexcontent { margin-left: 5px; margin-top: 0; }
+
+@media (max-width: 800px) {
+  * {
+
+    flex: 100%;
+  }
+  
+}
+
+nav ul li {
+
+  display: inline-block;
+
+  /* Add padding or margin as needed to create spacing between links */ 
+
+  padding: 10px;
+
+}
+
+
+
+.filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.filter-item {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.filter-item label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.filter-item input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s;
+  width: 100%; /* Ensures inputs take full width */
+}
+
+.filter-item input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .filter-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;  /* Slightly reduce padding on mobile */
+  }
+
+  .filter-item {
+    width: 100%;  /* Ensure filter items take full width on mobile */
+  }
+
+  .filter-item input {
+    padding: 12px;  /* Larger padding for easier clicking on mobile */
+  }
+}
