@@ -1,0 +1,140 @@
+{
+  "recipes": [
+    {
+      "name": "Bruschetta",
+      "image": "https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/Bruschetta.png?v=1740952473745",
+      "servings": 4,
+      "sugar_g": 2,
+      "honey_g": 0,
+      "ingredients": ["baguette", "tomatoes", "basil", "olive oil", "garlic"]
+    },
+    {
+      "name": "Caesar Salad",
+      "image": "https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/caesarSalad.png?v=1740952572147",
+      "servings": 2,
+      "sugar_g": 3,
+      "honey_g": 0,
+      "ingredients": ["romaine lettuce", "croutons", "parmesan", "caesar dressing"]
+    },
+    {
+      "name": "Stuffed Mushrooms",
+      "image": "https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/Screenshot%202025-03-02%20at%204.57.35%20PM.png?v=1740953202247",
+      "servings": 6,
+      "sugar_g": 1,
+      "honey_g": 0,
+      "ingredients": ["mushrooms", "cream cheese", "garlic", "parmesan", "parsley"]
+    },
+    {
+      "name": "Caprese Salad",
+      "image": "https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/Screenshot%202025-03-02%20at%204.57.54%20PM.png?v=1740953256607",
+      "servings": 4,
+      "sugar_g": 2,
+      "honey_g": 0,
+      "ingredients": ["tomatoes", "mozzarella", "basil", "balsamic glaze", "olive oil"]
+    },
+    {
+      "name": "Deviled Eggs",
+      "image": "https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/Screenshot%202025-03-02%20at%204.58.38%20PM.png?v=1740953311114",
+      "servings": 6,
+      "sugar_g": 1,
+      "honey_g": 0,
+      "ingredients": ["eggs", "mayonnaise", "mustard", "paprika", "vinegar"]
+    },
+    {
+      "name": "Garlic Bread",
+      "image": "https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/Screenshot%202025-03-02%20at%204.59.15%20PM.png?v=1740953357348",
+      "servings": 4,
+      "sugar_g": 2,
+      "honey_g": 0,
+      "ingredients": ["baguette", "butter", "garlic", "parsley", "parmesan"]
+    },
+    {
+      "name": "Spinach Artichoke Dip",
+      "image": "https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/Screenshot%202025-03-02%20at%204.59.52%20PM.png?v=1740953437830",
+      "servings": 4,
+      "sugar_g": 3,
+      "honey_g": 1,
+      "ingredients": ["spinach", "artichokes", "cream cheese", "parmesan", "garlic"]
+    },
+    {
+      "name": "Grilled Chicken",
+      "image": "https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/Screenshot%202025-03-02%20at%205.00.14%20PM.png?v=1740953498502",
+      "servings": 3,
+      "sugar_g": 1,
+      "honey_g": 2,
+      "ingredients": ["chicken breast", "olive oil", "lemon", "garlic", "rosemary"]
+    },
+    {
+      "name": "Spaghetti Bolognese",
+      "image": "https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/Screenshot%202025-03-02%20at%205.00.37%20PM.png?v=1740953541132",
+      "servings": 4,
+      "sugar_g": 5,
+      "honey_g": 0,
+      "ingredients": ["spaghetti", "ground beef", "tomato sauce", "onion", "garlic"]
+    },
+    {
+      "name": "Vegetable Stir Fry",
+      "image": "https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/Screenshot%202025-03-02%20at%205.00.54%20PM.png?v=1740953579450",
+      "servings": 3,
+      "sugar_g": 4,
+      "honey_g": 2,
+      "ingredients": ["broccoli", "carrots", "bell peppers", "soy sauce", "ginger"]
+    },
+    {
+      "name": "Grilled Salmon",
+      "image": "https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/Screenshot%202025-03-02%20at%205.01.11%20PM.png?v=1740953615064",
+      "servings": 2,
+      "sugar_g": 2,
+      "honey_g": 1,
+      "ingredients": ["salmon", "lemon", "garlic", "dill", "olive oil"]
+    },
+    {
+      "name": "Tacos",
+      "image": "https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/Screenshot%202025-03-02%20at%205.01.38%20PM.png?v=1740953652362",
+      "servings": 4,
+      "sugar_g": 3,
+      "honey_g": 0,
+      "ingredients": ["ground beef", "tortillas", "cheese", "lettuce", "tomato"]
+    },
+    {
+      "name": "Chocolate Cake",
+      "image": "https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/Screenshot%202025-03-02%20at%205.02.14%20PM.png?v=1740953695682",
+      "servings": 8,
+      "sugar_g": 40,
+      "honey_g": 10,
+      "ingredients": ["flour", "cocoa powder", "sugar", "eggs", "butter"]
+    },
+    {
+      "name": "Fruit Parfait",
+      "image": "https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/Screenshot%202025-03-02%20at%205.02.33%20PM.png?v=1740953734890",
+      "servings": 2,
+      "sugar_g": 15,
+      "honey_g": 5,
+      "ingredients": ["yogurt", "granola", "strawberries", "blueberries", "honey"]
+    },
+    {
+      "name": "Apple Pie",
+      "image": "https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/Screenshot%202025-03-02%20at%205.03.03%20PM.png?v=1740953768260",
+      "servings": 6,
+      "sugar_g": 30,
+      "honey_g": 8,
+      "ingredients": ["apples", "pie crust", "cinnamon", "sugar", "butter"]
+    },
+    {
+      "name": "Berry Smoothie Bowl",
+      "image": "https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/Screenshot%202025-03-02%20at%205.03.52%20PM.png?v=1740953805920",
+      "servings": 2,
+      "sugar_g": 18,
+      "honey_g": 4,
+      "ingredients": ["bananas", "strawberries", "yogurt", "granola", "honey"]
+    },
+    {
+      "name": "Pancakes",
+      "image": "https://cdn.glitch.global/d17eeaf4-4504-4833-ad4a-e2a4ad25ee42/Screenshot%202025-03-02%20at%205.04.11%20PM.png?v=1740953851540",
+      "servings": 4,
+      "sugar_g": 20,
+      "honey_g": 5,
+      "ingredients": ["flour", "milk", "eggs", "sugar", "butter"]
+    }
+  ]
+}
